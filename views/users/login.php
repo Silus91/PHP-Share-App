@@ -1,18 +1,19 @@
-<div>
+<div class="container" style="width: 50%">
   <div>
-    <h3>Login</h3>
+    <h3 class="h3 mb-3 font-weight-normal text-center">Login</h3>
+    <img class="mx-auto d-block" src="https://www.trzcacak.rs/myfile/detail/264-2642533_samurai-png-transparent-image-samurai-png.png" width="150px" height="150px" alt="Samurai">
   </div>
   <div>
-    <form method="post" action="<?php $_SERVER['PHP_SELF']; ?>">
+    <form class="form-group" method="post" action="<?php $_SERVER['PHP_SELF']; ?>">
       <div>
-        <label>Email</label>
-        <input type="text" name="email" />
+        <label class="sr-only">Email</label>
+        <input class="form-control" type="text" name="email" placeholder="Email" />
       </div>
       <div>
-        <label>password</label>
-        <input type="password" name="password" />
+        <label class="sr-only">password</label>
+        <input class="form-control" type="password" name="password" placeholder="Password" />
       </div>
-      <input type="submit" name="submit" value="Submit" />
+      <input class="btn btn-lg btn-primary" type="submit" name="submit" value="Submit" />
     </form>
   </div>
 </div>
