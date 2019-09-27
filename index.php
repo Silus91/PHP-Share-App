@@ -2,7 +2,7 @@
 // Start sesion 
 session_start();
 
-// Include confif
+// Include config
 require('config.php');
 
 require('classes/bootstrap.php');
@@ -24,7 +24,4 @@ $controller = $bootstrap->createController();
 if($controller){
     $controller->executeAction();
 }
-
-
-
 ?>
