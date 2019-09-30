@@ -32,5 +32,16 @@ class ShareModel extends Model{
     }
     return;
   }
+
+  public function delete(){
+    $post = filter_input_array(INPUT_POST,FILTER_SANITIZE_STRING);
+
+    if($post['delete']) {
+      $this->query("DELETE FROM shared WHERE id=:id");
+      $this->execute();
+      header('Location: '.ROOT_URL.'shares');
+    }
+  }
+
 }
 ?>
