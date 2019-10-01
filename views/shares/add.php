@@ -5,15 +5,15 @@
   <div>
     <form class="form-group" method="post" action="<?php $_SERVER['PHP_SELF']; ?>">
       <div>
-        <label class="sr-only">Share title</label>
+        <label class="sr-only">Share title!</label>
         <input class="form-control" placeholder="Title" type="text" name="title" />
       </div>
       <div>
-        <label class="sr-only">Share body</label>
+        <label class="sr-only">Share Info!</label>
         <textarea class="form-control" placeholder="Text" name="body"></textarea>
       </div>
       <div>
-        <label class="sr-only">Share link</label>
+        <label class="sr-only">Share link!</label>
         <input class="form-control" placeholder="Link" class="form-control" type="text" name="link" />
       </div>
       <input class="btn btn-primary" type="submit" name="submit" value="Submit" />
