@@ -7,7 +7,7 @@
       <h3 class="h3 mb-3 font-weight-normal text-center"><?php echo $item['title']; ?></h3>
       <p class="text-center"><?php echo $item['body']; ?></p>
       <a class="btn btn-lg btn-primary mx-auto" href="<?php echo $item['link']; ?>" target="_blank">Go to Link</a>
-      <form action="<?php $_SERVER['PHP_SELF']; ?>" method="post">
+      <form action="<?php echo ROOT_PATH."shares/delete"; ?>" method="post">
         <input type="submit" name="delete_id" value="<?php echo $item['id']; ?>">
       </form>
     </div>
