@@ -6,7 +6,6 @@
   <p>Can`t see content?? Register to see all GOOD Stuff here!!</p>
   <button class="btn btn-primary">
     <span class="spinner-border spinner-border-sm">Loading..</span>
-    
   </button>
   <?php endif ?>
 </div>
