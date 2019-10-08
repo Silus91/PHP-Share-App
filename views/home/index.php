@@ -5,8 +5,8 @@
   <?php if(!isset($_SESSION['is_logged_in'])) : ?>
   <p>Can`t see content?? Register to see all GOOD Stuff here!!</p>
   <button class="btn btn-primary">
-    <span class="spinner-border spinner-border-sm"></span>
-    Loading..
+    <span class="spinner-border spinner-border-sm">Loading..</span>
+    
   </button>
   <?php endif ?>
 </div>
