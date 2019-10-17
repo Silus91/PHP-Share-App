@@ -2,7 +2,6 @@
   <div>
     <h3 class="h3 mb-3 font-weight-normal text-center">Todo App!</h3>
     <h4 class="h4 mb-3 font-weight-normal text-center">Get stuff done!</h4>
-
   </div>
   <div>
     <form class="form-group" method="post" action="<?php $_SERVER['PHP_SELF']; ?>">
